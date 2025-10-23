@@ -75,9 +75,7 @@ export default function Home() {
   ];
 
   return <div className="min-h-screen bg-gradient-hero">
-      {/* Hero Section with Video */}
       <section className="pt-20 sm:pt-24 pb-12 sm:pb-16 px-4 relative overflow-hidden">
-        {/* Background Video */}
         <div className="absolute inset-0 w-full h-full -z-10">
           <video
             autoPlay
@@ -95,7 +93,6 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
-          {/* Content at top */}
           <div className="text-center space-y-6 sm:space-y-8 mb-12 sm:mb-16">
             <Badge variant="secondary" className="w-fit mx-auto text-xs sm:text-sm">
               AI-Powered Learning Platform
