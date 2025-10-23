@@ -21,9 +21,8 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     setTimeout(() => {
-      toast.success("Message sent! We'll get back to you within 24 hours.");
+      toast.success("Message sent! We'll get back to you within 3 hours.");
       setFormData({ name: "", email: "", subject: "", message: "" });
       setIsSubmitting(false);
     }, 1500);
